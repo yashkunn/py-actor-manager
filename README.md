@@ -11,13 +11,12 @@ In this task, you should create a manager for the dataclass `CinemaHall`.
 - description - general information about hall
 
 #### 2. Create database
-Create a database where will be stored entries with data about different cinema halls.
+Create a database `cinema` where will be stored entries with data about different cinema halls.
 Create a table `cinema_hall` with corresponding columns.
-Choose a descriptive name for your database.
 Now, you are ready to create a manager.
 
 #### 3. Create manager inside `managers.py` module
-Create `CinemaHallManager` class. 
+Create `CinemaHallManager` class that should provide **CRUD** operations. 
 It should create a connection to the database inside the constructor.
 The manager should have the following methods:
 - `create` - a method that creates a new entry in the `cinema_hall` table
