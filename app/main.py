@@ -1,13 +1,13 @@
-# from models import CinemaHall
-# from managers import CinemaHallManager
+# from models import Actor
+# from managers import ActorManager
 #
 # if __name__ == "__main__":
-#     CinemaHall.objects = CinemaHallManager()
-#
-#     CinemaHall.objects.create(capacity=20, description="Yellow hall")
-#     CinemaHall.objects.create(capacity=50, description="Black hall")
-#
-#     CinemaHall.objects.update(2, 300, "Large hall")
-#     print(CinemaHall.objects.all())
-#     CinemaHall.objects.delete(1)
-#     print(CinemaHall.objects.all())
+#     Actor.objects = ActorManager()
+#`
+#     Actor.objects.create(first_name="Emma", last_name="Watson")
+#     Actor.objects.create(first_name="Daniel", last_name="Radclife")
+#     print(Actor.objects.all())
+#     Actor.objects.update(2, "Daniel", "Radcliffe")
+#     print(Actor.objects.all())
+#     Actor.objects.delete(1)
+#     print(Actor.objects.all())
